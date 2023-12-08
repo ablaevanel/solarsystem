@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путеводитель по Солнечной системе</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="../images/logo.png">
+    <link rel="stylesheet" type="text/css" href="../css/style4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="../images/logo.png">
+            </div>
+            <button type="button" class="btn-hamburger" data-action="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="../html/index.html">Главная</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" data-action="dropdown-toggle">Солнечная Система</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="../html/index13.html">Солнце</a>
+                        <a class="dropdown-item" href="../html/index5.html">Меркурий</a>
+                        <a class="dropdown-item" href="../html/index6.html">Венера</a>
+                        <a class="dropdown-item" href="../html/index7.html">Земля</a>
+                        <a class="dropdown-item" href="../html/index8.html">Марс</a>
+                        <a class="dropdown-item" href="../html/index9.html">Юпитер</a>
+                        <a class="dropdown-item" href="../html/index10.html">Сатурн</a>
+                        <a class="dropdown-item" href="../html/index11.html">Уран</a>
+                        <a class="dropdown-item" href="../html/index12.html">Нептун</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="../html/index2.html">Анимация 2D</a></li>
+                <li class="nav-item"><a href="../html/index4.html">Планетарии</a></li>
+                <li class="nav-item"><a href="../html/index3.html">Обратная связь</a></li>
+                <li class="nav-item"><a href="#info">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="../js/menu.js"></script>
+    <main>
+        <h2>Планетарии</h2>
+        <ul class="ul-new">
+            <li class="li-new" id="mos">
+                <img src="../images/mos.jpg">
+                <div class="info">
+                    <h3>Московский планетарий</h3>
+                </div>
+            </li>
+            <div class="mi">
+                <h3>Московский планетарий</h3><br>
+                <p>Московский планетарий — один из самых больших в мире и самый старый планетарий в России.</p><br>
+                <p><strong>Адрес: </strong>Россия, 123242, г. Москва,
+                    ул.Садовая-Кудринская, д. 5, стр. 1</p><br>
+                <p><strong>Сайт: </strong><a href="https://www.planetarium-moscow.ru/">planetarium-moscow.ru</a></p>
+            </div>
+            <iframe id="mm" src="https://yandex.ru/map-widget/v1/?um=constructor%3A7eca41676f890daa66f1ac763200f02fd28f3f3a7865e954254d479710f94988&amp;source=constructor" width="320" height="425" frameborder="0"></iframe>
+            <li class="li-new" id="spb">
+                <img src="../images/spb.jpg">
+                <div class="info">
+                    <h3>Планетарий №1</h3>
+                </div>
+            </li>
+            <div class="si">
+                <h3>Планетарий №1</h3><br>
+                <p>Крупнейший планетарий в мире. Проекционный купол диаметром 37 метров, уникальный мультимедийный контент.</p><br>
+                <p><strong>Адрес: </strong>Санкт-Петербург, Наб. Обводного канала, д. 74, лит. Ц</p><br>
+                <p><strong>Сайт: </strong><a href="https://www.planetarium.one/">planetarium.one</a></p>
+            </div>
+            <iframe id="sm" src="https://yandex.ru/map-widget/v1/?um=constructor%3A4afc93a3d7b11bf8325f9fc876750c9a0892129d5ac6d85a466526e060f6a8ac&amp;source=constructor" width="320" height="425" frameborder="0"></iframe><li class="li-new" id="kaz">
+                <img src="../images/kaz.jpg">
+                <div class="info">
+                    <h3>Казанский планетарий</h3>
+                </div>
+            </li>
+            <div class="ki">
+                <h3>Казанский планетарий</h3><br>
+                <p>Казанский планетарий - единственный в России, входящий в структуру Федерального университета</p><br>
+                <p><strong>Адрес: </strong>Планетарий КФУ, РТ, Зеленодольский район, пос.Октябрьский, АОЭ, Казань, Россия.</p><br>
+                <p><strong>Сайт: </strong><a href="http://planetarium-kzn.ru/nashi-uslugi.html">planetarium-kzn.ru</a></p>
+            </div>
+            <iframe id="km" src="https://yandex.ru/map-widget/v1/?um=constructor%3A07f5d8a2fc3a31bbbfb3ce5fc66b25adaa4cfce10178a99208f16319a40616b4&amp;source=constructor" width="320" height="425" frameborder="0"></iframe>
+        </ul>
+    </main>
+    <footer>
+        <br><address id="info">
+            <strong>Контактная информация:</strong>
+            <br>Телефон: <a href="tel:+79018225479">+79018225479</a></sub>
+            <br>Почта: <a href="mailto:ablaevanel@gmail.com">ablaevanel@gmail.com</a></sup>
+        </address>
+        <div class="icons">
+            <span id="vk"><a href="https://vk.com/ablaevanel"><i class="fa-brands fa-vk"></i></a></span>
+            <span id="gh"><a href="https://github.com/ablaevanel"><i class="fa-brands fa-github"></i></a></span>
+            <span id="tg"><a href=https://t.me/ablaevanel><i class="fa-brands fa-telegram"></i></a></span>
+        </div>
+        <br><p><small>Аблаева Анель, 2023 ©</small></p><br>
+    </footer>
+</body>
+</html>
