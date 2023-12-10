@@ -898,7 +898,6 @@ main p{
     }
 
     main{
-        height:auto;
-	padding:2em;
+        height:50vh;
     }
 }
