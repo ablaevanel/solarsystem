@@ -708,3 +708,192 @@ main p{
         width:420px;
     }
 }
+
+@media screen and (max-width: 420px){
+    main p{
+        font-size: 8pt;
+        left:-35px;
+        top:-12px;
+    }
+
+    .sun{
+        height:50px;
+        width:50px;
+    }
+    
+    .mercury{
+        height:10px;
+        width:10px;
+    }
+    
+    @keyframes orbit2{
+        from{
+            transform:rotate(0deg)translate(30px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(30px) rotate(-360deg);
+        }
+    }
+    
+    .mercury-outline{
+        height:60px;
+        width:60px;
+    }
+    
+    .venus{
+        height:15px;
+        width:15px;
+    }
+    
+    @keyframes orbit3{
+        from{
+            transform:rotate(0deg)translate(40px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(40px) rotate(-360deg);
+        }
+    }
+    
+    .venus-outline{
+        height:80px;
+        width:80px;
+    }
+    
+    .earth{
+        height:20px;
+        width:20px;
+    }
+    
+    
+    @keyframes orbit4{
+        from{
+            transform:rotate(0deg)translate(55px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(55px) rotate(-360deg);
+        }
+    }
+    
+    .earth-outline{
+        height:110px;
+        width:110px;
+    }
+    
+    .earth-circle{
+        height:30px;
+        width:30px;
+        left:-6px;
+        top:-6px;
+    }
+
+    .earth-inner{
+        height:7px;
+        width:7px;
+        left:35%;
+        top:35%;
+    }
+    
+    @keyframes orbit5{
+        from{
+            transform:rotate(0deg)translate(15px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(15px) rotate(-360deg);
+        }
+    }
+    
+    .mars{
+        height:15px;
+        width:15px;
+    }
+
+    @keyframes orbit6{
+        from{
+            transform:rotate(0deg)translate(75px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(75px) rotate(-360deg);
+        }
+    }
+    
+    .mars-outline{
+        height:150px;
+        width:150px;
+    }
+    
+    .jupiter{
+        height:17px;
+        width:17px;
+    }
+    
+    @keyframes orbit7{
+        from{
+            transform:rotate(0deg)translate(85px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(85px) rotate(-360deg);
+        }
+    }
+    
+    .jupiter-outline{
+        height:170px;
+        width:170px;
+    }
+    
+    .saturn{
+        height:25px;
+        width:25px;
+    }
+
+    @keyframes orbit8{
+        from{
+            transform:rotate(0deg)translate(95px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(95px) rotate(-360deg);
+        }
+    }
+    
+    .saturn-outline{
+        height:190px;
+        width:190px;
+    }
+    
+    .uranus{
+        height:10px;
+        width:10px;
+    }
+
+    @keyframes orbit9{
+        from{
+            transform:rotate(0deg)translate(105px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(105px) rotate(-360deg);
+        }
+    }
+    
+    .uranus-outline{
+        height:210px;
+        width:210px;
+    }
+    
+    .neptune{
+        height:10px;
+        width:10px;
+    }
+
+    @keyframes orbit10{
+        from{
+            transform:rotate(0deg)translate(120px) rotate(0deg);
+        }
+        to{
+            transform:rotate(360deg)translate(120px) rotate(-360deg);
+        }
+    }
+    
+    .neptune-outline{
+        height:240px;
+        width:240px;
+    }
+}
