@@ -311,7 +311,7 @@ h2{
     font-family: 'Courier New', Courier, monospace;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
 	.gallery{
 		grid-template-columns: repeat(1, auto-fit);
 		grid-template-rows: repeat(9, auto-fit);
