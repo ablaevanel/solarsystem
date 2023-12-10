@@ -310,3 +310,10 @@ h2{
     color:white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+@media screen and (max-width: 480px) {
+	.gallery{
+		grid-template-columns: repeat(1, auto-fit);
+		grid-template-rows: repeat(9, auto-fit);
+	}
+}
