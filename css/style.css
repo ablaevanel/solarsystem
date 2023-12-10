@@ -311,9 +311,20 @@ h2{
     font-family: 'Courier New', Courier, monospace;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
 	.gallery{
-		grid-template-columns: repeat(1, auto-fit);
-		grid-template-rows: repeat(9, auto-fit);
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(9, 1fr);
+		grid-template-areas: 
+		"it1"
+		"it2"
+		"it3"
+		"it4"
+		"it5"
+		"it6"
+		"it7"
+		"it8"
+		"it9";
 	}
+}
 }
