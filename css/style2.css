@@ -896,4 +896,8 @@ main p{
         height:240px;
         width:240px;
     }
+
+    main{
+        height: 500px;
+    }
 }
